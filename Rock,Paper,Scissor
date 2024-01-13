@@ -65,4 +65,5 @@ elif (player_choice==computer_choice):
 else:
   print("Computer wins! You Lose :(")
 
-print("That was a good game ;)")
+if(player_choice!=computer_choice):
+   print("That was a good game ;)")
